@@ -37,45 +37,37 @@
     </section>
 
     <section>
-        <form> <h1> Registration Form</h1>
-            <div class ="field-group">
-                <div class ="Label"> Name</div>
-                <div class="field">
-                    <input type="text">
-                </div>
-            </div>
+        <form id ="create">
+            <fieldset id ="basic">
+                <legend> <h1>Registration Form</h1></legend>
+                <label for ="name"> Name</label>
+                <input type="text" name="name" id="name"/>
 
-            <div class ="field-group">
-                <div class ="Label"> Email</div>
-                <div class="field">
-                    <input type="text">
-                </div>
-            </div>
+                <label for ="email"> Email</label>
+                <input type="text" name="email" id="email"/>
+                <label for ="mnumber"> Mobile Number</label>
+                <input type="text" name="mnumber" id="mnumber"/>
+            </fieldset>
+            <fieldset id="options">
+                <label id="dbirth"> Date of Birth</label>
+                <select>
+                    <option value="">MONTH</option>
+                </select>
+                <select>
+                    <option value="">DAYS</option>
+                </select>
+                <select>
+                    <option value="">YEAR</option>
+                </select>
+            </fieldset id="go">
 
-            <div class ="input-group">
-                <div class ="Label"> Date of Birth</div>
-                <div class="field">
-                    <select>
-                        <option value="">MONTH</option>
-                    </select>
-                    <select>
-                        <option value="">DAYS</option>
-                    </select>
-                    <select>
-                        <option value="">YEAR</option>
-                    </select>
-                    </div>
-            </div>
-
-            <div class ="input-group">
-                <div class ="Label" style="margin-top=0">Gender</div>
-                <div class="field">
-                    <input type="radio" name="gender" id="male"> <label for="male">Male</label>
-                    <input type="radio" name="gender" id="female"> <label for="female">Female</label>
-                </div>
-            </div>
+            <fieldset id="gender">
+                <label id="gender"> Gender</label>
+                <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+                <input type="radio" name="gender" id="male"> <label for="female">Male</label>
 
 
+            </fieldset>
         </form>
 
     </section>
@@ -91,7 +83,7 @@
             <li>Hendrerit </li>
         </ul>
      </nav>
-</footer>
+
 
     <nav>
         <h1>PORTA</h1>
@@ -109,7 +101,7 @@
             <li>Accumsan  </li>
             <li>Velit in urna  </li>
             <li>Faucibus  </li>
-        </ul>
+        <ul>
     </nav>
     <nav>PLACERAT
         <ul>
@@ -119,5 +111,6 @@
             <li>Aliquam </li>
         </ul>
     </nav>
+    </footer>
 </body>
 </html>
