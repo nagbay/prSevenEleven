@@ -36,35 +36,74 @@
         </p>
     </section>
 
-    <section>
-        <h1>Registration Form</h1>
-        <form id ="create">
-            <fieldset id ="basic">
-                <legend> <legend>
-                <label for ="name"> Name</label>
-                <input type="text" name="name" id="name"/>
-                <label for ="email"> Email</label>
-                <input type="text" name="email" id="email"/>
-                <label for ="mnumber"> Mobile Number</label>
-                <input type="text" name="mnumber" id="mnumber"/>
-            </fieldset>
-            <fieldset id="options">
-                <label id="dbirth"> Date of Birth</label>
-                <select>
-                    <option value="">MONTH</option>
-                </select>
-                <select>
-                    <option value="">DAYS</option>
-                </select>
-                <select>
-                    <option value="">YEAR</option>
-                </select>
-            </fieldset id="go">
-            <fieldset id="gender">
-                <label id="gender"> Gender</label>
-                <input type="radio" name="gender" id="female"> <label for="female">Female</label>
-                <input type="radio" name="gender" id="male"> <label for="male">Male</label>
-            </fieldset>
+    <section id="registration-form">
+        <form>
+            <h1>Registration Form</h1>
+            <div class="field-group">
+                <fieldset>
+                <div class="input-group">
+                    <div class="label">Name</div>
+                    <div class="field">
+                        <input type="text" >
+                    </div>
+                </div>
+                </fieldset>
+                <fieldset>
+                <div class="input-group">
+                    <div class="label">Email</div>
+                    <div class="field">
+                        <input type="text" >
+                    </div>
+                </div>
+                    </fieldset>
+                <fieldset>
+
+                <div class="input-group">
+                    <div class="label">Mobile Number</div>
+                    <div class="field"><input type="text" ></div>
+                </div>
+                </fieldset>
+                <fieldset>
+                <div class="input-group">
+                    <div class="label">Date of birth</div>
+                    <div class="field">
+                        <select class="select">
+                            <option value="">MONTH</option>
+                        </select>
+                        <select class="select">
+                            <option value="">DAY</option>
+                        </select>
+                        <select class="select">
+                            <option value="">YEAR</option>
+                        </select>
+                    </div>
+                </div>
+                    </fieldset>
+
+                <div class="input-group">
+                    <div class="label" style="margin-top: 0;">Gender</div>
+                    <div class="field">
+
+                        <input type="radio" name="gender" id="female" style="margin-left: 0;"> <label for="female">Female</label>
+                        <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="label" style="margin-top: 0;"><input type="checkbox" id="checkbox"></div>
+                    <div class="field">
+                        <label for="checkbox">
+                            Proin sit amet lectus venenatis, consectetur
+                            magna vitae, convallis diam. Nullam iaculis.
+                        </label>
+                    </div>
+                </div>
+                <div class="cards">
+                </div>
+                <div class="input-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
         </form>
 
     </section>
