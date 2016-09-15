@@ -1,0 +1,27 @@
+var list = {
+  "employees": {
+
+    "employee1@yahoo.com": {
+      "firstName": "Jose"
+      "lastName": "Doe",
+      "position": "Manager",
+      "birth": {
+        "month": "January",
+        "day": 12,
+        "year": 2012
+      }
+    }
+  },
+
+  "employee2@gmail.com": {
+    "firstName": "John"
+    "lastName": "Hue",
+    "position": " Supervisor",
+    "birth": {
+      "month": "January",
+      "day": 12,
+      "year": 2012
+    }
+  }
+};
+
